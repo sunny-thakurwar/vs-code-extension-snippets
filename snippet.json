@@ -1,0 +1,2308 @@
+[
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<Spacing",
+    "body": ["<Spacing", "/>"],
+    "name": "Spacing"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<TypographyName",
+    "body": ["<TypographyName", "/>"],
+    "name": "TypographyName"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ColorScale",
+    "body": ["<ColorScale", "/>"],
+    "name": "ColorScale"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPAccordion",
+    "body": [
+      "<YAPAccordion",
+      "className={${1:string}}",
+      "defaultActive={${2:node}}",
+      "active={${3:node}}",
+      "allowMultiple={${4|true,false|}}",
+      "allowToggle={${5|true,false|}}",
+      "disabled={${6|true,false|}}",
+      "showIndicator={${7|true,false|}}",
+      "onChange={${8:()=>{\\}}}",
+      "/>"
+    ],
+    "name": "YAPAccordion"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPAccordionContent",
+    "body": [
+      "<YAPAccordionContent",
+      "className={${1:string}}",
+      "dataQaSelector={${2:string}}",
+      "/>"
+    ],
+    "name": "YAPAccordionContent"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPAccordionHeader",
+    "body": [
+      "<YAPAccordionHeader",
+      "className={${1:string}}",
+      "indicator={${2:node}}",
+      "dataQaSelector={${3:string}}",
+      "/>"
+    ],
+    "name": "YAPAccordionHeader"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPAccordionItem",
+    "body": [
+      "<YAPAccordionItem",
+      "className={${1:string}}",
+      "activeId={${2:string}}",
+      "disabled={${3|true,false|}}",
+      "/>"
+    ],
+    "name": "YAPAccordionItem"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPAlert",
+    "body": [
+      "<YAPAlert",
+      "className={${1:string}}",
+      "isOpen={${2|true,false|}}",
+      "closeOnEsc={${3|true,false|}}",
+      "closeOnBackdropClick={${4|true,false|}}",
+      "onClose={${5:()=>{\\}}}",
+      "onEsc={${6:()=>{\\}}}",
+      "onBackdropClick={${7:()=>{\\}}}",
+      "leastDestructiveActionRef={${8:{\\}}}",
+      "dataQaSelectors={${9:{\ncloseBtn :string,\nalertHeader :string,\nalertBody :string,\nalertFooter :string,\\}}}",
+      "/>"
+    ],
+    "name": "YAPAlert"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ActivitiesIcon",
+    "body": [
+      "<ActivitiesIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ActivitiesIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<AlignJustifyIcon",
+    "body": [
+      "<AlignJustifyIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "AlignJustifyIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<AlignLeftIcon",
+    "body": [
+      "<AlignLeftIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "AlignLeftIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<AlphabetsIcon",
+    "body": [
+      "<AlphabetsIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "AlphabetsIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<AppsIcon",
+    "body": ["<AppsIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "AppsIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<AlignRightIcon",
+    "body": [
+      "<AlignRightIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "AlignRightIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ArrowDownFilledIcon",
+    "body": [
+      "<ArrowDownFilledIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ArrowDownFilledIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ArrowDownwardIcon",
+    "body": [
+      "<ArrowDownwardIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ArrowDownwardIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ArrowRightIcon",
+    "body": [
+      "<ArrowRightIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ArrowRightIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ArrowLeftIcon",
+    "body": [
+      "<ArrowLeftIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ArrowLeftIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ArrowUpIcon",
+    "body": ["<ArrowUpIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "ArrowUpIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ArrowUpFilledIcon",
+    "body": [
+      "<ArrowUpFilledIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ArrowUpFilledIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ArrowUpwardIcon",
+    "body": [
+      "<ArrowUpwardIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ArrowUpwardIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ArrowDownIcon",
+    "body": [
+      "<ArrowDownIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ArrowDownIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<AutomationIcon",
+    "body": [
+      "<AutomationIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "AutomationIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<AtSignIcon",
+    "body": ["<AtSignIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "AtSignIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<BinIcon",
+    "body": ["<BinIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "BinIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<BoldIcon",
+    "body": ["<BoldIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "BoldIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ButtonIcon",
+    "body": ["<ButtonIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "ButtonIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ArticleIcon",
+    "body": ["<ArticleIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "ArticleIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<BrushIcon",
+    "body": ["<BrushIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "BrushIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<BounceIcon",
+    "body": ["<BounceIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "BounceIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<BookmarkIcon",
+    "body": [
+      "<BookmarkIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "BookmarkIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<CautionIcon",
+    "body": ["<CautionIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "CautionIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<BlockedIcon",
+    "body": ["<BlockedIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "BlockedIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<CardIcon",
+    "body": ["<CardIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "CardIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<CalendarIcon",
+    "body": [
+      "<CalendarIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "CalendarIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<CheckboxCheckedIcon",
+    "body": [
+      "<CheckboxCheckedIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "CheckboxCheckedIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<CheckboxPartialIcon",
+    "body": [
+      "<CheckboxPartialIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "CheckboxPartialIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<CheckboxUncheckedIcon",
+    "body": [
+      "<CheckboxUncheckedIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "CheckboxUncheckedIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ChevronLeftIcon",
+    "body": [
+      "<ChevronLeftIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ChevronLeftIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ChevronRightIcon",
+    "body": [
+      "<ChevronRightIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ChevronRightIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ChevronUpIcon",
+    "body": [
+      "<ChevronUpIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ChevronUpIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<CheckedRoundedIcon",
+    "body": [
+      "<CheckedRoundedIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "CheckedRoundedIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<CircularRightArrowIcon",
+    "body": [
+      "<CircularRightArrowIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "CircularRightArrowIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<CheckIcon",
+    "body": ["<CheckIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "CheckIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ClockIcon",
+    "body": ["<ClockIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "ClockIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ChevronDownIcon",
+    "body": [
+      "<ChevronDownIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ChevronDownIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ConnectIcon",
+    "body": ["<ConnectIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "ConnectIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<CloseRoundedIcon",
+    "body": [
+      "<CloseRoundedIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "CloseRoundedIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ColorFillIcon",
+    "body": [
+      "<ColorFillIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ColorFillIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<CropIcon",
+    "body": ["<CropIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "CropIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ContentIcon",
+    "body": ["<ContentIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "ContentIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<CustomisationIcon",
+    "body": [
+      "<CustomisationIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "CustomisationIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<CleaningIcon",
+    "body": [
+      "<CleaningIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "CleaningIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<CloneIcon",
+    "body": ["<CloneIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "CloneIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<DashboardIcon",
+    "body": [
+      "<DashboardIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "DashboardIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<DocumentIcon",
+    "body": [
+      "<DocumentIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "DocumentIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<DatabaseIcon",
+    "body": [
+      "<DatabaseIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "DatabaseIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<DownloadIcon",
+    "body": [
+      "<DownloadIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "DownloadIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<DragIcon",
+    "body": ["<DragIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "DragIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<DollarIcon",
+    "body": ["<DollarIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "DollarIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<EditingIcon",
+    "body": ["<EditingIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "EditingIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<DividerIcon",
+    "body": ["<DividerIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "DividerIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ExitIcon",
+    "body": ["<ExitIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "ExitIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<DeliveredIcon",
+    "body": [
+      "<DeliveredIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "DeliveredIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ExportIcon",
+    "body": ["<ExportIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "ExportIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<EyeClosedIcon",
+    "body": [
+      "<EyeClosedIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "EyeClosedIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ForwardIcon",
+    "body": ["<ForwardIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "ForwardIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<FilterIcon",
+    "body": ["<FilterIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "FilterIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<FolderIcon",
+    "body": ["<FolderIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "FolderIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ForwardOpenIcon",
+    "body": [
+      "<ForwardOpenIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ForwardOpenIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<FontColorIcon",
+    "body": [
+      "<FontColorIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "FontColorIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<GearIcon",
+    "body": ["<GearIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "GearIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<FeedbackIcon",
+    "body": [
+      "<FeedbackIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "FeedbackIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<CloseIcon",
+    "body": ["<CloseIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "CloseIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<HamburgerMenuIcon",
+    "body": [
+      "<HamburgerMenuIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "HamburgerMenuIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<HomeIcon",
+    "body": ["<HomeIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "HomeIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ImageGroupIcon",
+    "body": [
+      "<ImageGroupIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ImageGroupIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ImageGridIcon",
+    "body": [
+      "<ImageGridIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ImageGridIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ImageIcon",
+    "body": ["<ImageIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "ImageIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<HelpIcon",
+    "body": ["<HelpIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "HelpIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ImageSliderIcon",
+    "body": [
+      "<ImageSliderIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ImageSliderIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<IndentDecreaseIcon",
+    "body": [
+      "<IndentDecreaseIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "IndentDecreaseIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ImportIcon",
+    "body": ["<ImportIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "ImportIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<InfoIcon",
+    "body": ["<InfoIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "InfoIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<IntegrationIcon",
+    "body": [
+      "<IntegrationIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "IntegrationIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<InvalidIcon",
+    "body": ["<InvalidIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "InvalidIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<GiftIcon",
+    "body": ["<GiftIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "GiftIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<InventoryIcon",
+    "body": [
+      "<InventoryIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "InventoryIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ItalicIcon",
+    "body": ["<ItalicIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "ItalicIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<KebabMenuIcon",
+    "body": [
+      "<KebabMenuIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "KebabMenuIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<EyeOpenIcon",
+    "body": ["<EyeOpenIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "EyeOpenIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<LinkIcon",
+    "body": ["<LinkIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "LinkIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<KeyIcon",
+    "body": ["<KeyIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "KeyIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ListBulletIcon",
+    "body": [
+      "<ListBulletIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ListBulletIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<IndentIncreaseIcon",
+    "body": [
+      "<IndentIncreaseIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "IndentIncreaseIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<LocationIcon",
+    "body": [
+      "<LocationIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "LocationIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<MailchimpIcon",
+    "body": [
+      "<MailchimpIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "MailchimpIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<MapIcon",
+    "body": ["<MapIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "MapIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<MeatballMenuIcon",
+    "body": [
+      "<MeatballMenuIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "MeatballMenuIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<CalendarCheckedIcon",
+    "body": [
+      "<CalendarCheckedIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "CalendarCheckedIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<MediaPlayIcon",
+    "body": [
+      "<MediaPlayIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "MediaPlayIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<MegaPhoneIcon",
+    "body": [
+      "<MegaPhoneIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "MegaPhoneIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<MessageIcon",
+    "body": ["<MessageIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "MessageIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<MinusRoundedIcon",
+    "body": [
+      "<MinusRoundedIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "MinusRoundedIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ManageAccountIcon",
+    "body": [
+      "<ManageAccountIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ManageAccountIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<MinusIcon",
+    "body": ["<MinusIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "MinusIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<MinusSquaredDoubleIcon",
+    "body": [
+      "<MinusSquaredDoubleIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "MinusSquaredDoubleIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<MoreActionIcon",
+    "body": [
+      "<MoreActionIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "MoreActionIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<NoEncryptionIcon",
+    "body": [
+      "<NoEncryptionIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "NoEncryptionIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<MinusSquaredIcon",
+    "body": [
+      "<MinusSquaredIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "MinusSquaredIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<NumbersIcon",
+    "body": ["<NumbersIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "NumbersIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<NumberListIcon",
+    "body": [
+      "<NumberListIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "NumberListIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<OpenIcon",
+    "body": ["<OpenIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "OpenIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<OptimizationIcon",
+    "body": [
+      "<OptimizationIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "OptimizationIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<PencilIcon",
+    "body": ["<PencilIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "PencilIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<PercentIcon",
+    "body": ["<PercentIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "PercentIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<PhoneIcon",
+    "body": ["<PhoneIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "PhoneIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<MobileIcon",
+    "body": ["<MobileIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "MobileIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<PlusIcon",
+    "body": ["<PlusIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "PlusIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<PlusSquaredDoubleIcon",
+    "body": [
+      "<PlusSquaredDoubleIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "PlusSquaredDoubleIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<PlusRoundedIcon",
+    "body": [
+      "<PlusRoundedIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "PlusRoundedIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<PowerSwitchIcon",
+    "body": [
+      "<PowerSwitchIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "PowerSwitchIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<PrivacyIcon",
+    "body": ["<PrivacyIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "PrivacyIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<PrintIcon",
+    "body": ["<PrintIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "PrintIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ProtectedDocumentIcon",
+    "body": [
+      "<ProtectedDocumentIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ProtectedDocumentIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<QuestionFillIcon",
+    "body": [
+      "<QuestionFillIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "QuestionFillIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<PublishIcon",
+    "body": ["<PublishIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "PublishIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<PlusSquaredIcon",
+    "body": [
+      "<PlusSquaredIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "PlusSquaredIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<RadioCheckedIcon",
+    "body": [
+      "<RadioCheckedIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "RadioCheckedIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<RadioUncheckedIcon",
+    "body": [
+      "<RadioUncheckedIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "RadioUncheckedIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ReadIcon",
+    "body": ["<ReadIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "ReadIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<RefreshRoundedIcon",
+    "body": [
+      "<RefreshRoundedIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "RefreshRoundedIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ReservedIcon",
+    "body": [
+      "<ReservedIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ReservedIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ResizeIcon",
+    "body": ["<ResizeIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "ResizeIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<RotateIcon",
+    "body": ["<RotateIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "RotateIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<RotateLeftIcon",
+    "body": [
+      "<RotateLeftIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "RotateLeftIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<RotateRightIcon",
+    "body": [
+      "<RotateRightIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "RotateRightIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<RefreshIcon",
+    "body": ["<RefreshIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "RefreshIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<RoundedBarChartIcon",
+    "body": [
+      "<RoundedBarChartIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "RoundedBarChartIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ScannerIcon",
+    "body": ["<ScannerIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "ScannerIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ScheduleIcon",
+    "body": [
+      "<ScheduleIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "ScheduleIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<SecurityIcon",
+    "body": [
+      "<SecurityIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "SecurityIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<SegmentIcon",
+    "body": ["<SegmentIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "SegmentIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<NotificationIcon",
+    "body": [
+      "<NotificationIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "NotificationIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<SidebarIcon",
+    "body": ["<SidebarIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "SidebarIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<SellIcon",
+    "body": ["<SellIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "SellIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<SearchIcon",
+    "body": ["<SearchIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "SearchIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<SpacerIcon",
+    "body": ["<SpacerIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "SpacerIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<SpinnerIcon",
+    "body": ["<SpinnerIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "SpinnerIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<SquaredBarChartIcon",
+    "body": [
+      "<SquaredBarChartIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "SquaredBarChartIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<StopwatchIcon",
+    "body": [
+      "<StopwatchIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "StopwatchIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<StrikeThroughIcon",
+    "body": [
+      "<StrikeThroughIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "StrikeThroughIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<SwitchIcon",
+    "body": ["<SwitchIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "SwitchIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<TabletIcon",
+    "body": ["<TabletIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "TabletIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<TextIcon",
+    "body": ["<TextIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "TextIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<StopIcon",
+    "body": ["<StopIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "StopIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<TouchIcon",
+    "body": ["<TouchIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "TouchIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ThumbUpIcon",
+    "body": ["<ThumbUpIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "ThumbUpIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<UnderlineIcon",
+    "body": [
+      "<UnderlineIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "UnderlineIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<UniqueClickIcon",
+    "body": [
+      "<UniqueClickIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "UniqueClickIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<UnlinkIcon",
+    "body": ["<UnlinkIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "UnlinkIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<UpdatedIcon",
+    "body": ["<UpdatedIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "UpdatedIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<UserIcon",
+    "body": ["<UserIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "UserIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<UserListIcon",
+    "body": [
+      "<UserListIcon",
+      "width={${1:'1em'}}",
+      "height={${2:'1em'}}",
+      "/>"
+    ],
+    "name": "UserListIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<WalletIcon",
+    "body": ["<WalletIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "WalletIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<VideoIcon",
+    "body": ["<VideoIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "VideoIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<WarningIcon",
+    "body": ["<WarningIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "WarningIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<WebIcon",
+    "body": ["<WebIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "WebIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<SolidCheckIcon",
+    "body": [
+      "<SolidCheckIcon",
+      "width={${1:'10em'}}",
+      "height={${2:'10em'}}",
+      "/>"
+    ],
+    "name": "SolidCheckIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<UploadIcon",
+    "body": ["<UploadIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "UploadIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<SocialIcon",
+    "body": ["<SocialIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "SocialIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPAvatar",
+    "body": [
+      "<YAPAvatar",
+      "className={${1:string}}",
+      "size={${2|'small','medium','large'|}}",
+      "variant={${3|'rounded','squared'|}}",
+      "photo={${4:string}}",
+      "bgColor={${5:string}}",
+      "name={${6:'SM'}}",
+      "/>"
+    ],
+    "name": "YAPAvatar"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPBreadcrumbItemSeperator",
+    "body": ["<YAPBreadcrumbItemSeperator", "/>"],
+    "name": "YAPBreadcrumbItemSeperator"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPButton",
+    "body": [
+      "<YAPButton",
+      "fullWidth={${1:false}}",
+      "selected={${2:false}}",
+      "disabled={${3:false}}",
+      "size={${4:'medium'}}",
+      "variant={${5:'solid'}}",
+      "color={${6:'primary'}}",
+      "as={${7:'button'}}",
+      "/>"
+    ],
+    "name": "YAPButton"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPCheckbox",
+    "body": [
+      "<YAPCheckbox",
+      "className={${1:string}}",
+      "indeterminate={${2|true,false|}}",
+      "dataQaSelector={${3:string}}",
+      "defaultChecked={${4:string}}",
+      "onChange={${5:()=>{\\}}}",
+      "disabled={${6|true,false|}}",
+      "readonly={${7|true,false|}}",
+      "name={${8:string}}",
+      "value={${9:string}}",
+      "checked={${10|true,false|}}",
+      "label={${11:node}}",
+      "/>"
+    ],
+    "name": "YAPCheckbox"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPButtonGroup",
+    "body": [
+      "<YAPButtonGroup",
+      "className={${1:string}}",
+      "size={${2|'small','medium'|}}",
+      "color={${3|'primary','secondary','success','danger','warning','info'|}}",
+      "variant={${4|'solid','outline'|}}",
+      "/>"
+    ],
+    "name": "YAPButtonGroup"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPCheckboxGroup",
+    "body": ["<YAPCheckboxGroup", "orientation={${1:'vertical'}}", "/>"],
+    "name": "YAPCheckboxGroup"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPCard",
+    "body": ["<YAPCard", "className={${1:string}}", "/>"],
+    "name": "YAPCard"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPBanner",
+    "body": [
+      "<YAPBanner",
+      "variant={${1:'solid'}}",
+      "color={${2:'primary'}}",
+      "/>"
+    ],
+    "name": "YAPBanner"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<Picker",
+    "body": ["<Picker", "/>"],
+    "name": "Picker"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPCircularProgressBar",
+    "body": [
+      "<YAPCircularProgressBar",
+      "dataQaSelector={${1:string}}",
+      "progress={${2:number}}",
+      "size={${3|'small','medium','large'|}}",
+      "className={${4:string}}",
+      "color={${5:string}}",
+      "message={${6:string}}",
+      "/>"
+    ],
+    "name": "YAPCircularProgressBar"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPDivider",
+    "body": [
+      "<YAPDivider",
+      "className={${1:string}}",
+      "space={${2|'1','2','3','4','5','6','7','8','9','10'|}}",
+      "dashed={${3|true,false|}}",
+      "contentAlign={${4|'left','center','right'|}}",
+      "children={${5:node}}",
+      "/>"
+    ],
+    "name": "YAPDivider"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPFormControl",
+    "body": ["<YAPFormControl", "/>"],
+    "name": "YAPFormControl"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPFormErrorMessage",
+    "body": ["<YAPFormErrorMessage", "/>"],
+    "name": "YAPFormErrorMessage"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPBadge",
+    "body": [
+      "<YAPBadge",
+      "size={${1:'medium'}}",
+      "variant={${2:'solid'}}",
+      "color={${3:'primary'}}",
+      "/>"
+    ],
+    "name": "YAPBadge"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPFormHelpText",
+    "body": ["<YAPFormHelpText", "/>"],
+    "name": "YAPFormHelpText"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPIcon",
+    "body": [
+      "<YAPIcon",
+      "viewBox={${1:'0 0 24 24'}}",
+      "width={${2:'20'}}",
+      "height={${3:'20'}}",
+      "fill={${4:'currentColor'}}",
+      "/>"
+    ],
+    "name": "YAPIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPHeading",
+    "body": [
+      "<YAPHeading",
+      "className={${1:string}}",
+      "level={${2|'1','2','3','4','5','6'|}}",
+      "italic={${3|true,false|}}",
+      "underline={${4|true,false|}}",
+      "truncated={${5|true,false|}}",
+      "dataQaSelector={${6:string}}",
+      "/>"
+    ],
+    "name": "YAPHeading"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPImagePreview",
+    "body": [
+      "<YAPImagePreview",
+      "className={${1:string}}",
+      "children={${2:node}}",
+      "title={${3:string}}",
+      "imgSrc={${4:string}}",
+      "imgAlt={${5:string}}",
+      "dataQaSelector={${6:string}}",
+      "onRemove={${7:()=>{\\}}}",
+      "placeholderProps={${8:{\nonClick :()=>{\\},\nicon :node,\ntitle :string,\\}}}",
+      "primary={${9|true,false|}}",
+      "/>"
+    ],
+    "name": "YAPImagePreview"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPLabelValue",
+    "body": [
+      "<YAPLabelValue",
+      "className={${1:string}}",
+      "label={${2:node}}",
+      "value={${3:node}}",
+      "required={${4|true,false|}}",
+      "highlightValue={${5|true,false|}}",
+      "dataQaSelectors={${6:{\ncontainer :string,\nlabel :string,\nvalue :string,\\}}}",
+      "overflow={${7:'wrap'}}",
+      "/>"
+    ],
+    "name": "YAPLabelValue"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPTopbarLayer",
+    "body": ["<YAPTopbarLayer", "/>"],
+    "name": "YAPTopbarLayer"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPFormLabel",
+    "body": ["<YAPFormLabel", "/>"],
+    "name": "YAPFormLabel"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPMediaCard",
+    "body": [
+      "<YAPMediaCard",
+      "className={${1:string}}",
+      "children={${2:node}}",
+      "title={${3:string}}",
+      "imgSrc={${4:string}}",
+      "imgAlt={${5:string}}",
+      "dataQaSelector={${6:string}}",
+      "description={${7:string}}",
+      "onClick={${8:()=>{\\}}}",
+      "selected={${9:string}}",
+      "backgroundImageSize={${10:string}}",
+      "backgroundImageHeight={${11:string}}",
+      "/>"
+    ],
+    "name": "YAPMediaCard"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPLink",
+    "body": [
+      "<YAPLink",
+      "className={${1:string}}",
+      "as={${2:node}}",
+      "dataQaSelector={${3:string}}",
+      "href={${4:'#'}}",
+      "/>"
+    ],
+    "name": "YAPLink"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPEmptyState",
+    "body": [
+      "<YAPEmptyState",
+      "className={${1:string}}",
+      "title={${2:node}}",
+      "description={${3:node}}",
+      "cta={${4:node}}",
+      "imgSrc={${5:string}}",
+      "imgAltText={${6:string}}",
+      "dataQaSelectors={${7:{\ntitle :string,\nimg :string,\ndescription :string,\\}}}",
+      "/>"
+    ],
+    "name": "YAPEmptyState"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPDetailCard",
+    "body": [
+      "<YAPDetailCard",
+      "dataQaSelector={${1:string}}",
+      "label={${2:string}}",
+      "value={${3:number}}",
+      "description={${4:string}}",
+      "icon={${5:node}}",
+      "color={${6:string}}",
+      "onClick={${7:()=>{\\}}}",
+      "/>"
+    ],
+    "name": "YAPDetailCard"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPMenuListItem",
+    "body": [
+      "<YAPMenuListItem",
+      "className={${1:string}}",
+      "disable={${2|true,false|}}",
+      "closeOnSelect={${3|true,false|}}",
+      "as={${4:node}}",
+      "value={${5:string}}",
+      "onClick={${6:()=>{\\}}}",
+      "icon={${7:{\\}}}",
+      "dataQaSelector={${8:string}}",
+      "/>"
+    ],
+    "name": "YAPMenuListItem"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPInput",
+    "body": [
+      "<YAPInput",
+      "placeholder={${1:'Please type something...'}}",
+      "/>"
+    ],
+    "name": "YAPInput"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPMenuGroup",
+    "body": [
+      "<YAPMenuGroup",
+      "className={${1:string}}",
+      "selectionMode={${2|'single','multiple'|}}",
+      "onChange={${3:()=>{\\}}}",
+      "title={${4:string}}",
+      "defaultSelected={${5:node}}",
+      "selected={${6:node}}",
+      "/>"
+    ],
+    "name": "YAPMenuGroup"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPMenu",
+    "body": [
+      "<YAPMenu",
+      "closeOnSelect={${1|true,false|}}",
+      "indicator={${2:node}}",
+      "preventOutsideInteract={${3|true,false|}}",
+      "rtl={${4|true,false|}}",
+      "/>"
+    ],
+    "name": "YAPMenu"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPPagination",
+    "body": [
+      "<YAPPagination",
+      "className={${1:string}}",
+      "defaultPage={${2:number}}",
+      "page={${3:number}}",
+      "itemPerPage={${4:number}}",
+      "totalItems={${5:number}}",
+      "onPageChange={${6:()=>{\\}}}",
+      "renderPageInfo={${7:()=>{\\}}}",
+      "dataQaSelector={${8:{}}}",
+      "/>"
+    ],
+    "name": "YAPPagination"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPPopoverContent",
+    "body": [
+      "<YAPPopoverContent",
+      "className={${1:string}}",
+      "popoverPosition={${2:string}}",
+      "dataQaSelector={${3:string}}",
+      "/>"
+    ],
+    "name": "YAPPopoverContent"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPProgressBar",
+    "body": [
+      "<YAPProgressBar",
+      "className={${1:string}}",
+      "value={${2:number}}",
+      "indeterminate={${3|true,false|}}",
+      "color={${4:string}}",
+      "dataQaSelector={${5:string}}",
+      "/>"
+    ],
+    "name": "YAPProgressBar"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPMenuList",
+    "body": ["<YAPMenuList", "className={${1:string}}", "/>"],
+    "name": "YAPMenuList"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPPopover",
+    "body": [
+      "<YAPPopover",
+      "isOpen={${1|true,false|}}",
+      "onChange={${2:()=>{\\}}}",
+      "children={${3:node}}",
+      "rtl={${4|true,false|}}",
+      "/>"
+    ],
+    "name": "YAPPopover"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPNumberInput",
+    "body": [
+      "<YAPNumberInput",
+      "max={${1:'15'}}",
+      "min={${2:'-5'}}",
+      "step={${3:'1'}}",
+      "placeholder={${4:'0'}}",
+      "/>"
+    ],
+    "name": "YAPNumberInput"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPRadio",
+    "body": [
+      "<YAPRadio",
+      "className={${1:string}}",
+      "dataQaSelector={${2:string}}",
+      "defaultChecked={${3:string}}",
+      "onChange={${4:()=>{\\}}}",
+      "disabled={${5|true,false|}}",
+      "readonly={${6|true,false|}}",
+      "name={${7:string}}",
+      "value={${8:string}}",
+      "checked={${9|true,false|}}",
+      "label={${10:string}}",
+      "helpText={${11:string}}",
+      "/>"
+    ],
+    "name": "YAPRadio"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPRadioGroup",
+    "body": ["<YAPRadioGroup", "orientation={${1:'vertical'}}", "/>"],
+    "name": "YAPRadioGroup"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPOverlay",
+    "body": [
+      "<YAPOverlay",
+      "className={${1:string}}",
+      "size={${2:string}}",
+      "fullscreen={${3|true,false|}}",
+      "isOpen={${4|true,false|}}",
+      "closeOnEsc={${5|true,false|}}",
+      "onClose={${6:()=>{\\}}}",
+      "onEsc={${7:()=>{\\}}}",
+      "closeOnBackdropClick={${8|true,false|}}",
+      "onBackdropClick={${9:()=>{\\}}}",
+      "fullMaxHeight={${10|true,false|}}",
+      "dataQaSelectors={${11:{\ncloseBtn :string,\\}}}",
+      "/>"
+    ],
+    "name": "YAPOverlay"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPAsyncCreatableSelect",
+    "body": [
+      "<YAPAsyncCreatableSelect",
+      "className={${1:string}}",
+      "dataQaSelector={${2:string}}",
+      "/>"
+    ],
+    "name": "YAPAsyncCreatableSelect"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPAsyncSelect",
+    "body": [
+      "<YAPAsyncSelect",
+      "className={${1:string}}",
+      "dataQaSelector={${2:string}}",
+      "/>"
+    ],
+    "name": "YAPAsyncSelect"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPCreatableSelect",
+    "body": [
+      "<YAPCreatableSelect",
+      "className={${1:string}}",
+      "dataQaSelector={${2:string}}",
+      "/>"
+    ],
+    "name": "YAPCreatableSelect"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPPageTitle",
+    "body": [
+      "<YAPPageTitle",
+      "className={${1:string}}",
+      "dataQaSelector={${2:string}}",
+      "/>"
+    ],
+    "name": "YAPPageTitle"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<Group",
+    "body": ["<Group", "/>"],
+    "name": "Group"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPSegmentedButton",
+    "body": ["<YAPSegmentedButton", "dataQaSelector={${1:''}}", "/>"],
+    "name": "YAPSegmentedButton"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPColorPicker",
+    "body": [
+      "<YAPColorPicker",
+      "className={${1:string}}",
+      "initialValue={${2:string}}",
+      "value={${3:string}}",
+      "onChange={${4:()=>{\\}}}",
+      "rtl={${5|true,false|}}",
+      "dataQaSelector={${6:string}}",
+      "/>"
+    ],
+    "name": "YAPColorPicker"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPSlider",
+    "body": [
+      "<YAPSlider",
+      "className={${1:string}}",
+      "values={${2:[[object Object]]}}",
+      "onChange={${3:()=>{\\}}}",
+      "step={${4:number}}",
+      "min={${5:number}}",
+      "max={${6:number}}",
+      "disabled={${7|true,false|}}",
+      "dataQaSelector={${8:string}}",
+      "showFooter={${9|true,false|}}",
+      "rtl={${10|true,false|}}",
+      "/>"
+    ],
+    "name": "YAPSlider"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPSpace",
+    "body": [
+      "<YAPSpace",
+      "className={${1:string}}",
+      "as={${2:node}}",
+      "space={${3|'1','2','3','4','5','6','7','8','9','10'|}}",
+      "flexDirection={${4|'row','row-reverse','column','column-reverse'|}}",
+      "stack={${5|'horizontal','vertical'|}}",
+      "justifyContent={${6|'flex-start','flex-end','stretch','center','start','center','end','space-around','space-evenly','space-between'|}}",
+      "alignItem={${7|'flex-start','flex-end','stretch','center','start','center','end','space-between'|}}",
+      "flexWrap={${8|'nowrap','wrap'|}}",
+      "/>"
+    ],
+    "name": "YAPSpace"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPSpinner",
+    "body": ["<YAPSpinner", "size={${1:'medium'}}", "/>"],
+    "name": "YAPSpinner"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPTabList",
+    "body": [
+      "<YAPTabList",
+      "className={${1:string}}",
+      "children={${2:node}}",
+      "/>"
+    ],
+    "name": "YAPTabList"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPTabPanel",
+    "body": [
+      "<YAPTabPanel",
+      "className={${1:string}}",
+      "children={${2:node}}",
+      "tabId={${3:string}}",
+      "/>"
+    ],
+    "name": "YAPTabPanel"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPTabPanels",
+    "body": [
+      "<YAPTabPanels",
+      "className={${1:string}}",
+      "children={${2:node}}",
+      "/>"
+    ],
+    "name": "YAPTabPanels"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPTabs",
+    "body": [
+      "<YAPTabs",
+      "className={${1:string}}",
+      "children={${2:node}}",
+      "selectedTab={${3:string}}",
+      "disabled={${4|true,false|}}",
+      "dataQaSelector={${5:string}}",
+      "/>"
+    ],
+    "name": "YAPTabs"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPTag",
+    "body": [
+      "<YAPTag",
+      "className={${1:string}}",
+      "onClose={${2:()=>{\\}}}",
+      "bgColor={${3:string}}",
+      "textColor={${4:string}}",
+      "dataQaSelector={${5:string}}",
+      "/>"
+    ],
+    "name": "YAPTag"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<ListIcon",
+    "body": ["<ListIcon", "width={${1:'1em'}}", "height={${2:'1em'}}", "/>"],
+    "name": "ListIcon"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPText",
+    "body": [
+      "<YAPText",
+      "className={${1:string}}",
+      "as={${2:node}}",
+      "type={${3|'body','caption'|}}",
+      "color={${4|'smoke','ash','cloud','fog','primary','danger','warning','success','info'|}}",
+      "italic={${5|true,false|}}",
+      "underline={${6|true,false|}}",
+      "truncated={${7|true,false|}}",
+      "dataQaSelector={${8:string}}",
+      "/>"
+    ],
+    "name": "YAPText"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPToast",
+    "body": [
+      "<YAPToast",
+      "color={${1:'primary'}}",
+      "progressDuration={${2:5000}}",
+      "/>"
+    ],
+    "name": "YAPToast"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPTextArea",
+    "body": [
+      "<YAPTextArea",
+      "className={${1:string}}",
+      "readOnly={${2|true,false|}}",
+      "disabled={${3|true,false|}}",
+      "id={${4:string}}",
+      "name={${5:string}}",
+      "resize={${6|'none','both','horizontal','vertical'|}}",
+      "value={${7:string}}",
+      "placeholder={${8:string}}",
+      "onChange={${9:()=>{\\}}}",
+      "invalid={${10|true,false|}}",
+      "dataQaSelector={${11:string}}",
+      "rows={${12:number}}",
+      "cols={${13:number}}",
+      "/>"
+    ],
+    "name": "YAPTextArea"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPSwitch",
+    "body": [
+      "<YAPSwitch",
+      "className={${1:string}}",
+      "dataQaSelector={${2:string}}",
+      "selected={${3|true,false|}}",
+      "onChange={${4:()=>{\\}}}",
+      "disabled={${5|true,false|}}",
+      "name={${6:string}}",
+      "/>"
+    ],
+    "name": "YAPSwitch"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPTab",
+    "body": [
+      "<YAPTab",
+      "className={${1:string}}",
+      "tabId={${2:string}}",
+      "leftComponent={${3:node}}",
+      "rightComponent={${4:node}}",
+      "disabled={${5|true,false|}}",
+      "children={${6:node}}",
+      "/>"
+    ],
+    "name": "YAPTab"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<Icons",
+    "body": ["<Icons", "/>"],
+    "name": "Icons"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPSidebarHeader",
+    "body": ["<YAPSidebarHeader", "className={${1:string}}", "/>"],
+    "name": "YAPSidebarHeader"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPSidebarFlyout",
+    "body": [
+      "<YAPSidebarFlyout",
+      "className={${1:string}}",
+      "enable={${2|true,false|}}",
+      "referenceElement={${3:node}}",
+      "children={${4:node}}",
+      "dataQaSelector={${5:string}}",
+      "/>"
+    ],
+    "name": "YAPSidebarFlyout"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPSidebarMenuItem",
+    "body": [
+      "<YAPSidebarMenuItem",
+      "className={${1:string}}",
+      "as={${2:node}}",
+      "onClick={${3:()=>{\\}}}",
+      "isActive={${4|true,false|}}",
+      "id={${5:string}}",
+      "icon={${6:node}}",
+      "label={${7:string}}",
+      "dataQaSelector={${8:string}}",
+      "/>"
+    ],
+    "name": "YAPSidebarMenuItem"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPSidebarFooter",
+    "body": ["<YAPSidebarFooter", "className={${1:string}}", "/>"],
+    "name": "YAPSidebarFooter"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPSidebarSubmenu",
+    "body": [
+      "<YAPSidebarSubmenu",
+      "className={${1:string}}",
+      "isActive={${2|true,false|}}",
+      "id={${3:string}}",
+      "title={${4:string}}",
+      "children={${5:node}}",
+      "icon={${6:node}}",
+      "label={${7:string}}",
+      "dataQaSelector={${8:string}}",
+      "/>"
+    ],
+    "name": "YAPSidebarSubmenu"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPSidebar",
+    "body": [
+      "<YAPSidebar",
+      "className={${1:string}}",
+      "isCollapsed={${2|true,false|}}",
+      "onBackdropClick={${3:()=>{\\}}}",
+      "onCollapse={${4:()=>{\\}}}",
+      "dataQaSelector={${5:string}}",
+      "/>"
+    ],
+    "name": "YAPSidebar"
+  },
+  {
+    "scope": "javascript,typescript",
+    "prefix": "<YAPSidebarContent",
+    "body": ["<YAPSidebarContent", "className={${1:string}}", "/>"],
+    "name": "YAPSidebarContent"
+  }
+]

@@ -3,8 +3,12 @@ const t = require("@babel/types");
 const syntaxFlow = require("@babel/plugin-syntax-flow");
 
 module.exports = async function addImport({ code, componentName }) {
-  let foundAnshImport = false;
+  let foundExistingImport = false;
   let output;
+  const importLibraryName =
+    componentName.includes("YAP") || componentName.includes("Icon")
+      ? "@yapsody/ansh-ui"
+      : "@yapsody/lib-ui-standards";
 
   try {
     output = await transformAsync(code, {
@@ -17,10 +21,11 @@ module.exports = async function addImport({ code, componentName }) {
           return {
             visitor: {
               ImportDeclaration(path) {
-                if (path.node.source.value !== "@yapsody/ansh-ui") {
+                if (path.node.source.value !== importLibraryName) {
                   return;
                 }
-                foundAnshImport = true;
+
+                foundExistingImport = true;
                 const hasComponentImport = path.node.specifiers.find(
                   (node) =>
                     t.isImportSpecifier(node) &&
@@ -63,9 +68,9 @@ module.exports = async function addImport({ code, componentName }) {
     console.log(`addImport Error - ${error.message} - ${error}`);
   }
 
-  if (!foundAnshImport) {
+  if (!foundExistingImport) {
     return `${code}
-import { ${componentName} } from  "@yapsody/ansh-ui";`.trim();
+import { ${componentName} } from  "${importLibraryName}";`.trim();
   } else {
     return output && output.code !== undefined && output.code !== null
       ? output.code
